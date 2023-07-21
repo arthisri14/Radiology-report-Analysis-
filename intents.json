@@ -1,0 +1,199 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "Website",
+      "patterns": [
+        "How to upload file?"
+      ],
+      "responses":[
+        "Click the choose file button, Select the file and click upload"
+      ]
+    },
+    {
+      "tag": "Radiology reports",
+      "patterns": [
+        "What are radiology reports?",
+        "What are the details mentioned in radiology reports?"
+      ],
+      "responses":[
+        "A detailed report that describes the results of an imaging test. A radiology report includes information about the type of imaging test that was done and how it was done. It also includes a brief medical history of the person having the test, including any symptoms or known diseases and why the test was needed."
+      ]
+    },
+    {
+      "tag": "Uses",
+      "patterns": [
+        "Uses of this Website"
+      ],
+      "responses":[
+        "Dashboard analysis gives better insights and reports of the patients medical history for better and easy understanding in a less time.",
+        "A radiology report dashboard analysis website can help enhance patient care by providing quick and easy access to radiology reports, allowing medical professionals to make more informed decisions about patient treatment.",
+        "A radiology report dashboard analysis website can facilitate research by providing access to large amounts of radiology data for analysis. This can help identify patterns and trends in imaging findings, as well as evaluate the effectiveness of different treatments."
+      ]
+    },
+    {
+      "tag": "Services",
+      "patterns": [
+        "What can you do?"
+      ],
+      "responses":[
+        "I can help you with dashboard created for the given dataset!",
+        "I'll be your assist you to use and navigate through the dashboard."
+      ]
+    },
+    {
+      "tag": "MRI",
+      "patterns": [
+        "What are the analyses done for the MRI report?"
+      ],
+      "responses":[
+        "Age by data of patients,Age and Patient by Clinical_information and Impression,Age by Patient,findings and impression,Age by clinical_information and Patient,Age abd file by exam"
+        
+      ]
+    },
+    {
+      "tag": "CT",
+      "patterns": [
+        "What are the analyses done for the CT report?"
+      ],
+      "responses":[
+        "Age by data of patients,Age and Patient by Clinical_information and Impression,Age by Patient,findings and impression,Age by clinical_information and Patient,Age and file by exam"
+        
+      ] 
+    },
+    {
+      "tag": "Ultrasound",
+      "patterns": [
+        "What are the analyses done for the Ultrasound report?"
+      ],
+      "responses":[
+        "Age by data of patients,Age and Patient by Clinical_information and Impression,Age by Patient,findings and impression,Age by clinical_information and Patient,Age and file by exam"
+        
+      ]
+    },
+    {
+      "tag": "X-Ray",
+      "patterns": [
+        "What are the analyses done for the X-Ray report?"
+      ],
+      "responses":[
+        "Age by data of patients,Age and Patient by Clinical_information and Impression,Age by Patient,findings and impression,Age by clinical_information and Patient,Age and file by exam"
+        
+      ]
+    },
+    {
+      "tag": "Overall Analysis",
+      "patterns": [
+        "What can be depicted by Overall Analysis of the dashboard?"
+      ],
+      "responses":[
+        "Patients are categorised into age,file name, findings and impression so that doctors can visualise what kind of examination and clinical information of the patients"
+      ]
+    },
+    {
+      "tag": "comparison and contrast",
+      "patterns": [
+        "What does comparison and contrast show in the dashboard?"
+      ],
+      "responses":[
+        "Mostly both are NONE.But Left knee Ultrasound and 15ml of MultiHance comparison is made"
+      ]
+    },
+    {
+      "tag": "MRI Left shoulder",
+      "patterns": [
+        "Who did MRI Left shoulder on 8th Sept?"
+      ],
+      "responses":[
+        "Maxine"
+      ]
+    },
+    {
+      "tag": "Waterfall chart",
+      "patterns": [
+        "What does the Waterfall chart depict in MRI dashboard analysis?"
+      ],
+      "responses":[
+        "Patient's age, findings and impression"
+      ]
+    },
+    {
+      "tag": "Lower back pain",
+      "patterns": [
+        "What examination taken for the patient who came with Lower back pain?"
+      ],
+      "responses":[
+        "MRI of Lumbar spine and Flexion and extensions"
+      ]
+    },
+    {
+      "tag": "Swetha",
+      "patterns": [
+        "What are the informations depicted of the patienr Swetha?"
+      ],
+      "responses":[
+        "The patient is found with Left Knee pain and identified reporting complete resolution of Left knee pain after aspiration and injection procedure"
+      ]
+    },
+    {
+      "tag": "RUQ pain",
+      "patterns": [
+        "Information of the patient with RUQ pain"
+      ],
+      "responses":[
+        "Name: Phineas,Age: 27"
+      ]
+    },
+    {
+      "tag": "Technique",
+      "patterns": [
+        "What Technique used for the patient with Hematuria"
+      ],
+      "responses":[
+        "Scarring in the Left kidney"
+      ]
+    }
+  ]
+}
